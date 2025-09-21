@@ -17,7 +17,7 @@ const renderLaunches = async () => {
                     <article>
                         <h3>${launch.name}</h3>
                         <p><strong>Vehicle:</strong> ${launch.launchVehicle}</p>
-                        <p><strong>Date:</strong> ${launch.date}</p>
+                        <p><strong>Date:</strong> ${launch.launchDate}</p>
                         <a href="/launches/${launch.id}" role="button">Read More</a>
                     </article>
                 `;
